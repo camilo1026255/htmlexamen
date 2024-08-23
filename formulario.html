@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario Básico</title>
+</head>
+<body>
+    <form>
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre"><br><br>
+
+        <label>Sexo:</label><br>
+        <input type="radio" id="hombre" name="sexo" value="hombre">
+        <label for="hombre">Hombre</label><br>
+        <input type="radio" id="mujer" name="sexo" value="mujer">
+        <label for="mujer">Mujer</label><br><br>
+
+        <label for="fecha-nacimiento">Fecha Nacimiento:</label><br>
+        <select id="fecha-nacimiento" name="fecha-nacimiento">
+            <option value="2000">2000</option>
+            <option value="2001">2001</option>
+            <option value="2002">2002</option>
+        </select><br><br>
+
+        <label for="terminos">¿Acepta los términos?</label>
+        <input type="checkbox" id="terminos" name="terminos"><br><br>
+
+        <input type="submit" value="Enviar">
+    </form>
+</body>
+</html>
